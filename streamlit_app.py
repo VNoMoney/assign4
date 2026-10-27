@@ -38,8 +38,8 @@ WORDS = [
     "FINANCIAL", "ANALYTIC"
 ]
 
-st.title("🎮 Hangman")
-st.write("Its hangman. You know how to play")
+st.title("Hangman")
+st.write("Its hangman. You know how to play.")
 
 # Initialize a new game
 if "word" not in st.session_state:

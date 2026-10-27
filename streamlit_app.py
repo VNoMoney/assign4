@@ -26,15 +26,16 @@ with tabs[2]:
     st.subheader(f"Volume for MSFT")
     st.bar_chart(df['Volume'])
 
-# Tab 4: Hangman - Maybe you got bored of staring at stats all day, I dunno. Here's a game of hangman.
+# Tab 4: I love creative liberty
+# Hangman - Maybe you got bored of staring at stats all day, I dunno. Here's a game of hangman.
 
 import random
 import streamlit as st
 
 WORDS = [
-    "PETERWYSOCKI", "AC420", "VINCENTZHU",
+    "PETERWYSOCKI", "ASSIGNMENT4", "VINCENTZHU",
     "COLLAB", "STREAMLIT", "MICROSOFT",
-    "BAMBOOZLE", "GREG"
+    "FINANCIAL", "ANALYTIC"
 ]
 
 st.title("🎮 Hangman")
